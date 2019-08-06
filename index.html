@@ -4,27 +4,30 @@
 <head>
  <meta charset="utf-8" />
  <title>Module 4</title>
- <link rel="stylesheet" href="sass/style.css">
+ <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-	<nav class="navigation">
-		<div class="left-box">
-			<span>Golden</span>
-		</div>
-		<div class="right-box">
-			<ul>
-				<li><a href="#">HOME</a></li>
-				<li><a href="#">SERVICES</a></li>
-				<li><a href="#">PORTFOLIO</a></li>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">CONTACT</a></li>
-			</ul>
-		</div>
-	</nav>
-	
-	<header class="splash">
-		<div class="container">
+<body>	
+	<header class="splash">		
+		<nav class="navigation">
+			<div class="left-box">
+				<span>Golden</span>
+			</div>
+			<div class="right-box">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="splash-inner">
 			<h1 class="page-title">Welcome to our studio!</h1>
 			<h2 class="page-subtitle">IT'S NICE TO MEET YOU</h2>
 			<a href="#" class="btn">TELL ME MORE</a>
@@ -32,77 +35,101 @@
 	</header>
 	
 	<section class="services">
-		<h1 class="section-title">SERVICES</h1>
-		<h2 class="section-subtitle">Lorem ipsum dolor</h2>
-		<div class="box">
-			<h3 class="box-title">E-Commerce</h3>
-		</div>
-		<div class="box">
-			<h3 class="box-title">Responsive Web</h3>
-		</div>
-		<div class="box">
-			<h3 class="box-title">Web Security</h3>
+		<div class="container">
+			<h1 class="section-title">SERVICES</h1>
+			<h2 class="section-subtitle">Lorem ipsum dolor</h2>
+			<div class="wrap">
+				<div class="box">
+					<span class="fas fa-shopping-basket"></span>
+					<h3 class="box-title">E-Commerce</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi velit, viverra ut nisl sit amet, dapibus rutrum lacus. Donec ut felis odio. Quisque efficitur augue est, vel luctus erat pellentesque at. Donec sed malesuada mauris.</p>
+				</div>
+				<div class="box">
+					<span class="fas fa-laptop"></span>
+					<h3 class="box-title">Responsive Web</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi velit, viverra ut nisl sit amet, dapibus rutrum lacus. Donec ut felis odio. Quisque efficitur augue est, vel luctus erat pellentesque at. Donec sed malesuada mauris.</p>
+				</div>
+				<div class="box">
+					<span class="fas fa-lock"></span>
+					<h3 class="box-title">Web Security</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisi velit, viverra ut nisl sit amet, dapibus rutrum lacus. Donec ut felis odio. Quisque efficitur augue est, vel luctus erat pellentesque at. Donec sed malesuada mauris.</p>
+				</div>
+			</div>
 		</div>
 	</section>
 	
 	<section class="portfolio">
-		<h1 class="section-title">OUR PORTFOLIO</h1>
-		<h2 class="section-subtitle">Lorem ipsum dolor</h2>
-		<div class="box">
-			<div class="image">
-			</div>
-			<div class="description">
-				<h3 class="box-title"></h3>
-				<h4 class="box-subtitle"></h4>
-			</div>
-		</div>
-		<div class="box">
-			<div class="image">
-			</div>
-			<div class="description">
-				<h3 class="box-title"></h3>
-				<h4 class="box-subtitle"></h4>
-			</div>
-		</div>
-		<div class="box">
-			<div class="image">
-			</div>
-			<div class="description">
-				<h3 class="box-title"></h3>
-				<h4 class="box-subtitle"></h4>
-			</div>
-		</div>
-		<div class="box">
-			<div class="image">
-			</div>
-			<div class="description">
-				<h3 class="box-title"></h3>
-				<h4 class="box-subtitle"></h4>
-			</div>
-		</div>
-		<div class="box">
-			<div class="image">
-			</div>
-			<div class="description">
-				<h3 class="box-title"></h3>
-				<h4 class="box-subtitle"></h4>
-			</div>
-		</div>
-		<div class="box">
-			<div class="image">
-			</div>
-			<div class="description">
-				<h3 class="box-title"></h3>
-				<h4 class="box-subtitle"></h4>
+		<div class="container">
+			<h1 class="section-title">OUR PORTFOLIO</h1>
+			<h2 class="section-subtitle">Lorem ipsum dolor</h2>
+			<div class="wrap">
+				<div class="box">
+					<div class="image">
+						<img src="https://images.pexels.com/photos/1266012/pexels-photo-1266012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="design">
+					</div>
+					<div class="description">
+						<h3 class="box-title">Ebony & Ivory</h3>
+						<h4 class="box-subtitle">Branding</h4>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="design">
+					</div>
+					<div class="description">
+						<h3 class="box-title">Smart Stationary</h3>
+						<h4 class="box-subtitle">Print Design</h4>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="design">
+					</div>
+					<div class="description">
+						<h3 class="box-title">Clever Poster</h3>
+						<h4 class="box-subtitle">Print Design</h4>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="design">
+					</div>
+					<div class="description">
+						<h3 class="box-title">Vinyl Record</h3>
+						<h4 class="box-subtitle">Product Mock-up</h4>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="design">
+					</div>
+					<div class="description">
+						<h3 class="box-title">Treehouse Template</h3>
+						<h4 class="box-subtitle">Web Design</h4>
+					</div>
+				</div>
+				<div class="box">
+					<div class="image">
+						<img src="https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="design">
+					</div>
+					<div class="description">
+						<h3 class="box-title">Burned Logo</h3>
+						<h4 class="box-subtitle">Branding</h4>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 	
 	<footer class="footer">
 		<div class="left-box">
-			<span>&copy;Copyright 2014 FreebiesXpress.com</span>
+			<span>&copy; Copyright 2014 FreebiesXpress.com</span>
 		</div>
 		<div class="right-box">
+			<a href="#"><span class="fab fa-twitter"></span></a>
+			<a href="#"><span class="fab fa-facebook-f"></span></a>
+			<a href="#"><span class="fab fa-pinterest-p"></span></a>
+			<a href="#"><span class="fab fa-google-plus-g"></span></a>
 		</div>
 	</footer>
 </body>
